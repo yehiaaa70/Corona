@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:context=".ui.patient.PatientFragment">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/SearchForPatient_Patient"
+            android:layout_width="354dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/search_bar"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:gravity="center"
+            android:hint="Search For patient"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="#B6B7B7"
+
+            android:textSize="15dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Rec_Patient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            tools:listitem="@layout/custome_design" />
+
+    </LinearLayout>
+</layout>
+

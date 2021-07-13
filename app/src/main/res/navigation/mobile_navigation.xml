@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.side.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Doctor"
+        android:name="com.example.side.ui.doctor.DoctorFragment"
+        android:label="@string/Doctor"
+        tools:layout="@layout/fragment_doctor" >
+        <action
+            android:id="@+id/action_nav_Doctor_to_doctor_profile"
+            app:destination="@id/doctor_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Volunteer"
+        android:name="com.example.side.ui.volunteer.VolunteerFragment"
+        android:label="@string/Volunteer"
+        tools:layout="@layout/fragment_volunteer" >
+        <action
+            android:id="@+id/action_nav_Volunteer_to_medical_equipment"
+            app:destination="@id/medical_equipment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_patient"
+        android:name="com.example.side.ui.patient.PatientFragment"
+        android:label="@string/patient"
+        tools:layout="@layout/fragment_patient" >
+        <action
+            android:id="@+id/action_nav_patient_to_nurse_profile"
+            app:destination="@id/nurse_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Pharmacies"
+        android:name="com.example.side.ui.pharmacies.PharmaciesFragment"
+        android:label="Pharmcies"
+        tools:layout="@layout/fragment_pharmacies" />
+
+    <fragment
+        android:id="@+id/nav_Hospitals"
+        android:name="com.example.side.ui.hospital.HospitalFragment"
+        android:label="Hospitals"
+        tools:layout="@layout/fragment_hospital" />
+
+
+    <fragment
+        android:id="@+id/nav_HeatMap"
+        android:name="com.example.side.ui.heatmap.HeatmapFragment"
+        android:label="Heat_Map"
+        tools:layout="@layout/fragment_heatmap" />
+    <fragment
+        android:id="@+id/nav_QRCode"
+        android:name="com.example.side.ui.qr.QrFragment"
+        android:label="@string/QRCode"
+        tools:layout="@layout/fragment_qr" >
+        <action
+            android:id="@+id/action_nav_QRCode_to_generateQR"
+            app:destination="@id/generateQR" />
+        <action
+            android:id="@+id/action_nav_QRCode_to_checkQR"
+            app:destination="@id/checkQR" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Family"
+        android:name="com.example.side.ui.family.FamilyFragment"
+        android:label="@string/family_friends"
+        tools:layout="@layout/fragment_family" />
+    <fragment
+        android:id="@+id/nav_Settings"
+        android:name="com.example.side.ui.setting.SettingFragment"
+        android:label="@string/Settings"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_LogOut"
+        android:name="com.example.side.ui.logout.LogOutFragment"
+        android:label="@string/LogOut"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/doctor_profile"
+        android:name="com.example.side.ui.doctor.doctor_profile"
+        android:label="doctor_profile" >
+        <argument
+            android:name="DoctorProfileData"
+            app:argType="com.example.side.ui.doctor.DoctorModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/nurse_profile"
+        android:name="com.example.side.ui.patient.nurse_profile"
+        android:label="nurse_profile" >
+        <argument
+            android:name="NurseModel"
+            app:argType="com.example.side.ui.patient.NurseModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/medical_equipment"
+        android:name="com.example.side.ui.volunteer.medical_equipment"
+        android:label="medical_equipment" >
+        <argument
+            android:name="VolunteerProfileData"
+            app:argType="com.example.side.ui.volunteer.VolunteerModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/generateQR"
+        android:name="com.example.side.ui.qr.GenerateQR"
+        android:label="Generate QR Code"
+        tools:layout="@layout/fragment_generate_q_r" />
+    <fragment
+        android:id="@+id/checkQR"
+        android:name="com.example.side.ui.qr.CheckQR"
+        android:label="Check QR Code"
+        tools:layout="@layout/fragment_check_q_r" />
+    <fragment
+        android:id="@+id/comments"
+        android:name="com.example.side.ui.home.Comments"
+        android:label="fragment_comments"
+        tools:layout="@layout/fragment_comments" />
+</navigation>

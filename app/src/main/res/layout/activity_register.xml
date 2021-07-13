@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            tools:context=".ui.logout.register">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="90dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="70dp"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="60dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:hint="name"
+                android:textSize="18dp"
+                android:textColor="#878888"
+                android:background="@drawable/hints"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="25dp"
+                android:hint="phone"
+                android:textSize="18dp"
+                android:textColor="#878888"
+                android:background="@drawable/hints"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:hint="Email"
+                android:textSize="18dp"
+                android:textColor="#878888"
+                android:background="@drawable/hints"
+
+                />
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:hint="password"
+                android:textSize="18dp"
+                android:textColor="#878888"
+                android:background="@drawable/hints"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="use app as : "
+                android:textSize="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#323030" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/group">
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Doctor"
+                    android:textSize="20dp"
+                    android:textColor="#474747"
+                    android:onClick="dr"
+
+
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Patient"
+                    android:textSize="20dp"
+                    android:textColor="#474747"
+                    android:onClick="patient"
+                    android:layout_marginTop="10dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="volunteer: "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#323030" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="nurse"
+                    android:textSize="20dp"
+                    android:textColor="#474747"
+                    android:onClick="nurse"
+                    android:layout_marginTop="10dp"
+
+
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="equipment"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#474747"
+                    android:onClick="equip"
+
+
+                    />
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

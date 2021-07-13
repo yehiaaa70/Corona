@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:context=".ui.logout.register_equipment">
+
+
+            <LinearLayout
+                android:layout_width="83dp"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="90dp"
+                android:src="@drawable/medical"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="10dp"
+              android:text="@string/Volunteer"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                />
+
+
+
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/hints"
+                android:text="age :   "
+                android:numeric="decimal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:text="address :   "
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:text="item name :   "
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:text="price :   "
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/equipmentRegister_btn"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button"
+                android:text="sign up"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:textStyle="italic"
+
+                />
+
+            <!--    <LinearLayout-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="50dp">-->
+
+
+            <!--        <Button-->
+            <!--            android:layout_width="120dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:textColor="#fff"-->
+            <!--            android:background="@drawable/button"-->
+            <!--            android:layout_marginLeft="47dp"-->
+            <!--            android:layout_marginTop="30dp"-->
+            <!--            android:drawableRight="@drawable/call"-->
+            <!--            android:paddingEnd="10dp"-->
+            <!--            android:text="call"-->
+            <!--            android:fontFamily="cursive"-->
+            <!--            android:textStyle="bold"-->
+            <!--            android:textSize="18dp"-->
+
+            <!--            />-->
+
+            <!--        <Button-->
+            <!--            android:layout_width="120dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginLeft="45dp"-->
+            <!--            android:layout_marginTop="30dp"-->
+            <!--            android:background="@drawable/button"-->
+            <!--            android:paddingEnd="10dp"-->
+            <!--            android:text="request"-->
+            <!--            android:textColor="#fff"-->
+            <!--            android:fontFamily="cursive"-->
+            <!--            android:textStyle="bold"-->
+            <!--            android:textSize="18dp"-->
+
+            <!--            />-->
+
+
+            <!--    </LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

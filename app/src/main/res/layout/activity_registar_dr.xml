@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:context=".ui.logout.registar_dr">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/doctor"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/hints"
+                android:hint="age"
+                android:numeric="decimal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/hints"
+                android:hint="address"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/hints"
+                android:hint="price"
+                android:numeric="decimal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:hint="day:             from:        to:"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:hint="clinck's address"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <EditText
+                    android:layout_width="283dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/hints"
+                    android:hint="certifications"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="80dp"
+                    android:scrollbarSize="200dp"
+                    android:textColor="#878888"
+                    android:textSize="18dp"
+
+                    />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button"
+                    android:text="upload"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/doctorRegister_btn"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/button"
+                android:text="sign up"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:textStyle="italic"
+
+                />
+
+            <!--    <LinearLayout-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="10dp">-->
+
+            <!--        <Button-->
+            <!--            android:layout_width="120dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:textColor="#fff"-->
+            <!--            android:background="@drawable/button"-->
+            <!--            android:layout_marginLeft="45dp"-->
+            <!--            android:layout_marginTop="30dp"-->
+            <!--            android:drawableRight="@drawable/messenger"-->
+            <!--            android:paddingEnd="10dp"-->
+            <!--            android:text="chat"-->
+            <!--            android:fontFamily="cursive"-->
+            <!--            android:textStyle="bold"-->
+            <!--            android:textSize="18dp"-->
+
+            <!--            />-->
+            <!--        <Button-->
+            <!--            android:layout_width="120dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:textColor="#fff"-->
+            <!--            android:background="@drawable/button"-->
+            <!--            android:layout_marginLeft="47dp"-->
+            <!--            android:layout_marginTop="30dp"-->
+            <!--            android:drawableRight="@drawable/call"-->
+            <!--            android:paddingEnd="10dp"-->
+            <!--            android:text="call"-->
+            <!--            android:fontFamily="cursive"-->
+            <!--            android:textStyle="bold"-->
+            <!--            android:textSize="18dp"-->
+
+            <!--            />-->
+
+            <!--    </LinearLayout>-->
+
+
+            <!--<Button-->
+            <!--    android:layout_width="220dp"-->
+            <!--    android:layout_height="wrap_content"-->
+            <!--    android:background="@drawable/button"-->
+            <!--    android:layout_marginTop="25dp"-->
+            <!--    android:layout_marginLeft="75dp"-->
+            <!--    android:text="Book"-->
+            <!--    android:textColor="#fff"-->
+            <!--    android:textSize="20dp"-->
+            <!--   android:fontFamily="cursive"-->
+            <!--    android:textStyle="bold"-->
+
+
+            <!--    />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</layout>

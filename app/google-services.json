@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422729891645",
+    "project_id": "tidy-nomad-319208",
+    "storage_bucket": "tidy-nomad-319208.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422729891645:android:9b22f36664382e0644cf54",
+        "android_client_info": {
+          "package_name": "com.example.side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422729891645-0vinmgln50vkov0peidhnj2vi3k0j6f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw2F7gkf7TOC-vIP-xDExyTqXxBSEFuqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422729891645-0vinmgln50vkov0peidhnj2vi3k0j6f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

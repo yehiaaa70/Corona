@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            tools:context=".ui.volunteer.medical_equipment">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/medical"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Volunteer"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                />
+
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="18dp"
+                android:numStars="5"
+                android:stepSize="0.5"
+
+                />
+
+
+            <TextView
+                android:id="@+id/volunteerName"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/hints"
+                android:hint="name"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/volunteerPhone"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:hint="phone"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/volunteerAge"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/hints"
+                android:hint="age"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/volunteerAddress"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:hint="address"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+            <TextView
+                android:id="@+id/volunteeritem"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/hints"
+                android:hint="item name"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/volunteerprice"
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/hints"
+                android:hint="price"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:textColor="#878888"
+                android:textSize="18dp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

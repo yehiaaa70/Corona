@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context=".ui.family.FamilyFragment"
+    >
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo"
+
+        />
+
+    <TextView
+        android:id="@+id/et_msg"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Hi, i got infected of Corona virus..
+         Please if there was anyone who has been close to me recently, isolate yourself immediately for two weeks"
+
+        android:padding="20dp"
+
+        />
+
+
+
+        <EditText
+            android:id="@+id/et_num"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:scrollbarSize="50dp"
+
+
+            />
+        <Button
+            android:id="@+id/choose"
+            android:layout_width="283dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="50dp"
+
+            android:text="select  contacts"
+            android:textSize="17dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:background="@drawable/button"
+
+            />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/b1_man"-->
+    <!--        android:layout_width="283dp"-->
+    <!--        android:layout_height="45dp"-->
+    <!--        android:layout_marginLeft="55dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:text="send sms manually"-->
+    <!--        android:textSize="18dp"-->
+    <!--        android:textColor="#fff"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:background="@drawable/button"-->
+
+    <!--        />-->
+    <Button
+        android:id="@+id/b2_sms"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:text="send sms"
+        android:textSize="17dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:background="@drawable/button"
+
+        />
+
+
+
+</LinearLayout>

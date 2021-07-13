@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:context=".ui.pharmacies.PharmaciesFragment">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/logo" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recPharmacies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            tools:listitem="@layout/custome_design2" />
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fff"
+            tools:context=".ui.logout.login">
+
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/logo"
+
+                />
+
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="100dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:hint="phone "
+                android:inputType="textEmailAddress"
+                android:textSize="18dp"
+                android:textColorHint="#878888"
+                android:background="@drawable/hints"
+
+                />
+
+            <EditText
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="65dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:layout_marginTop="30dp"
+                android:hint="password"
+                android:password="true"
+                android:textSize="18dp"
+                android:textColorHint="#878888"
+                android:background="@drawable/hints"
+
+                />
+
+            <Button
+                android:layout_width="283dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="45dp"
+                android:text="sign in"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:textStyle="italic"
+                android:background="@drawable/button"
+                android:id="@+id/login"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>
